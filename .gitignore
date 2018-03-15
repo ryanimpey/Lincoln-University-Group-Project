@@ -8,6 +8,9 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Library/metadata/*
+Unity/Library/metadata/*/*
+Unity/Library/metadata/*
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -106,6 +109,11 @@ artifacts/
 .builds
 *.svclog
 *.scc
+
+*.bin
+*.dll
+*.mdb
+*.info
 
 # Chutzpah Test files
 _Chutzpah*
@@ -329,3 +337,4 @@ __pycache__/
 
 
 # End of https://www.gitignore.io/api/unity,visualstudio
+Unity/Library/metadata/00/00000000000000006100000000000000
