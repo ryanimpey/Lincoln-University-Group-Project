@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 345671220}
   - component: {fileID: 345671219}
   - component: {fileID: 345671221}
+  - component: {fileID: 345671222}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -338,8 +339,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1407746232}
-          m_MethodName: LoadScene
+        - m_Target: {fileID: 0}
+          m_MethodName: 
           m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -352,6 +353,18 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &345671222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345671217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb0ba962bb22604e8f58e49235b0e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cube: {fileID: 2072399952}
 --- !u!1 &811748510
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +837,7 @@ GameObject:
   - component: {fileID: 2072399955}
   - component: {fileID: 2072399954}
   - component: {fileID: 2072399953}
+  - component: {fileID: 2072399957}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -891,9 +905,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2072399952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.17, y: 3.46, z: 14.36}
+  m_LocalPosition: {x: 50.45, y: 7, z: 27}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072399957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2072399952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb0ba962bb22604e8f58e49235b0e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cube: {fileID: 2072399952}
