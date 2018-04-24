@@ -15,7 +15,7 @@ public class PathMover : MonoBehaviour {
     private float distance = 80;
 
     // Travel time
-    private float lerpTime = 10;
+    private float lerpTime = 2.5f;
 
     // Keep track of current lerp time
     private float currentLerpTime = 0;
