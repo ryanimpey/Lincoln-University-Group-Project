@@ -12,10 +12,10 @@ public class PathMover : MonoBehaviour {
     private Vector3 endPosition;
 
     // Distance to move
-    private float distance = 80;
+    private float distance = 200;
 
     // Travel time
-    private float lerpTime = 2.5f;
+    private float lerpTime = 6f;
 
     // Keep track of current lerp time
     private float currentLerpTime = 0;

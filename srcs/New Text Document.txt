@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/48635957/create-objects-with-ground-plane-detection-only-once-with-vuforia-unity?rq=1
+https://library.vuforia.com/articles/Solution/ground-plane-guide.html
+https://library.vuforia.com/articles/Training/ground-plane-guide.html
+https://www.youtube.com/watch?v=e0feEWLRSYI
